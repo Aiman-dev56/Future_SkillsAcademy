@@ -1,0 +1,194 @@
+
+.hero-sec h1{
+    margin-top: 100px;
+    font-size: 6em;
+    color: rgb(66, 65, 64);
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-sec h3{
+    margin-top: 10px;
+}
+.cour-text {
+    margin: 20px;
+    width: 800px;
+    /* fixed width */
+    height: 100vh;
+    /* fixed height */
+
+    overflow-y: auto;
+    /* vertical scrollbar */
+    overflow-x: hidden;
+    /* no horizontal scroll */
+
+    border-radius: 20px;
+}
+
+.cour-text h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cour-list {
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.cour-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.cour-list a:hover {
+    text-decoration: underline;
+}
+
+.about-cont{
+  color: rgb(74, 77, 80);
+    margin-top: 100px;
+}
+.about-cont p {
+    margin: 10px 50px;
+    padding: 10px 50px;
+}
+
+.card-cont h5{
+ color: rgb(85, 83, 82);
+}
+.card-cont p{
+ color: rgb(83, 83, 81);
+}
+.addmi-sec{
+    background-color: rgb(227, 219, 210);
+    height: 180vh;
+    
+}
+.addmi-sec h1{
+     padding: 40px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color: rgb(87, 85, 84);
+     font-size: 4em;
+}
+.addmi-sec h4{
+color: rgb(87, 85, 84);
+}
+.addmi-sec h2{
+    color:rgb(87, 85, 84) ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.addmi-sec p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 100px;
+    padding: 0 100px;
+    font-size: large;
+}
+.prog-sec{
+    background-color: rgb(96, 94, 94);
+    height: 180vh;
+    padding-top: 80px;
+    color:rgb(231, 219, 205);
+}
+.prog-sec h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    color:rgb(231, 219, 205);
+}
+.prog-sec p {
+    margin-top: 50px;
+}
+.prog-sec a{
+    text-decoration: none;
+    color:rgb(231, 219, 205);
+}
+
+
+
+ .form-control{
+      width:100%;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 6px;
+      font-size: 15px;
+      outline: none;
+      transition: border-color .15s, box-shadow .15s;
+      background: transparent;
+    }
+
+    .form-control:focus{
+      border-bottom-color: #9aa3ff;
+      box-shadow: 0 1px 0 rgba(153,153,255,0.06);
+    }
+
+    /* error text + icon (like your screenshot) */
+    .error {
+      display:flex;
+      align-items:flex-start;
+      gap:8px;
+      margin-top: 8px;
+      color: var(--accent);
+      font-size: 13px;
+      line-height:1.1;
+    }
+    .error .icon{
+      font-weight:700;
+      display:inline-block;
+      width:20px;
+      height:20px;
+      text-align:center;
+      border-radius:50%;
+      border:1px solid var(--accent);
+      color: var(--accent);
+      font-size:12px;
+      padding-top:1px;
+      background: #fff;
+    }
+.cont-sec{
+    margin-top: 100px;
+}
+
+    .cont-sec h1{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     font-size: 3em;
+    }
+label{
+    font-size: large;
+    
+}
+
+@media (max-width: 768px){
+    .addmi-sec{
+        height: 200vh;
+    }
+    .addmi-sec p{
+        margin:  50px 0px;
+    }
+    .prog-sec{
+        height: 240vh;
+    }
+}
+.underline-center {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.underline-center::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: rgb(231, 219, 205); /* underline color */
+  transition: width 0.4s ease;
+}
+
+.underline-center:hover::after {
+  width: 100%;
+}

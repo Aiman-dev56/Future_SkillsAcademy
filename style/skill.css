@@ -1,0 +1,16 @@
+.short-cour {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 20px;
+    height: 250vh;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px black;
+
+}
+.short-cour h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
